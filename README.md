@@ -175,13 +175,3 @@ The source already defines `NOMINMAX` before including `windows.h`. If you see t
 
 **The tray icon disappeared after Explorer restarted.**
 It should come back by itself. If not, quit and relaunch the app.
-
-**I launched it twice and nothing happened.**
-That's intentional. Only one copy can run at a time.
-
-## Ideas for later
-
-- Clipboard-paste mode for long or multi-line snippets
-- Per-app exclusion list
-- Embedded `.ico` so the `.exe` shows the icon in File Explorer
-- Cursor-position marker (`{cursor}`) for snippets that should leave the caret in the middle
